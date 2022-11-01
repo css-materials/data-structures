@@ -50,7 +50,7 @@ y["b"]  # by name
 
 # use [[]] to access "a"
 # result should be an atomic vector
-y[[1]]   # 1by position
+y[[1]]   # by position
 y[["a"]] # by name
 
 # combine [[]] and [] to access specific elements values
