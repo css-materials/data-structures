@@ -48,7 +48,7 @@ y["a"]  # by name
 y[2]    # by position
 y["b"]  # by name
 
-# use [[]] to "a"
+# use [[]] to access "a"
 # result should be an atomic vector
 y[[1]]   # 1by position
 y[["a"]] # by name
