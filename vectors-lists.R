@@ -1,5 +1,5 @@
 # data structure - practice
-# review also lecture 2 "intro to R" and exercises
+
 
 ## 1. SUBSETTING A VECTOR 
 
@@ -9,17 +9,22 @@
 # check its structure
 str(x)
 
-# keep the first element
+# check whether is a vector and/or check its class
+is.vector(x)
+is.atomic(x)
+class(x)
 
-# keep the first through fourth elements
+# take the first element
 
-# keep the first through fourth elements, plus the seventh element
+# take the first through fourth elements
 
-# keep all elements beside the first three
+# take the first through fourth elements, plus the seventh element
 
-# keep all elements with values greater than five
+# take all elements beside the first three
 
-# keep all even elements (use modular division)
+# take all elements with values greater than five
+
+# take all even elements (use modular division)
 
 
 ## 2. SUBSETTING A LIST 
@@ -32,6 +37,10 @@ str(x)
 
 # check its structure
 str(y)
+
+# check whether is a list and/or check its class
+is.list(y)
+class(y)
 
 # use [] to access "a" -- results should be a list
 
